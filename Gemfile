@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'json', '~>2.3'
+gem 'sinatra', '~>2.0'
+
