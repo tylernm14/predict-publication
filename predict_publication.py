@@ -91,10 +91,12 @@ class PredictPublication:
         return self.labelencoder.inverse_transform(prediction)[0]
 
     def save_pipeline(self, pkl_filename):
+        print("Saving pipeline...", end='')
         pipeline = Pipeline([('vectorizer', self.bow_transformer),
                              ('labelenc', self.labelencoder),
                              ('nbclassifier', self.model)])
         dump(pipeline, pkl_filename, compress=9)
+        print('Done.')
 
     def eval_pipeline(self, pkl_filename, title, content):
         """ Evaluate a sample via the pipeline model """
