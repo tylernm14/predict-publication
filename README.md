@@ -5,16 +5,16 @@ This project aims to predict the publication which published an article.  The cl
 ## Project Structure
 ```
 predict-publication/
-|--.dockerignore	             # Ignore data dir during build
-|--Dockerfile                    # docker build file
-|--Gemfile						 # ruby gem dependencies
-|--Gemfile.lock					 # fixed version of gems
-|--REAMD.md						 # This file
-|--app.rb						 # Sinatra web app
-|--data/						 # Training data for the prediction model
-|--images/					 	 # Images for the README.md
-|--predict_publication.py		 # Python ML module for prediction
-|--predpub.pkl					 # Trained model to be loaded for evaluation
+|--.dockerignore	                 # Ignore data dir during build
+|--Dockerfile                    	 # docker build file
+|--Gemfile                               # ruby gem dependencies
+|--Gemfile.lock                          # fixed version of gems
+|--REAMD.md                              # This file
+|--app.rb                                # Sinatra web app
+|--data/                                 # Training data for the prediction model
+|--images/                               # Images for the README.md
+|--predict_publication.py                # Python ML module for prediction
+|--predpub.pkl	                         # Trained model to be loaded for evaluation
 ```
 
 ## Usage
