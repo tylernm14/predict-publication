@@ -37,6 +37,7 @@ Docker is used to containerize the project and install the dependencies.
 3. Set your docker VM to use 5GB of memory
    This is necessary becase the model is a couple of GB
     becuase of the large vocabulary.  Can also try just increasing the swap.
+    
    	<img src='images/dockerprefs.png' width="300">
    
 
